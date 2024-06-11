@@ -14,9 +14,21 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 
+from bg.views import ShowIndex, ShowContact, ShowServices, ShowAbout
+from bg2b_v2 import settings
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', ShowIndex.as_view(), name='home'),
+    path('contact/', ShowContact.as_view(), name='contact'),
+    path('services/', ShowServices.as_view(), name='services'),
+    path('about/', ShowAbout.as_view(), name='about')
+
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>СВАРОГ О нас</title>
+
+     <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-finance-business.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="#"><i class="fa fa-clock-o"></i>Понедельник - Пятница 09:00-20:00</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>+7-111-111-1111</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="{% url 'home' %}"><h2>Финансовая группа СВАРОГ</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'about' %}">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'services' %}">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'contact' %}">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>СВАРОГ</h1>
+            <span>Наша компания более 20 лет специализируется на финансовых услугах</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <span>Команда</span>
+                    <h2>Наши специалисты <em>знатоки своего дела</em></h2>
+                    <p>СВАРОГ собрал под своими знаменами команду профессионалов</p>
+                    <a href="" class="filled-button">Читать</a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="left-image">
+                    <img src="/static/assets/images/about-image.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Наша команда <em>специалисты</em></h2>
+              <span>Всегда на связи и готовы решить задачу любой сложности</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-item">
+              <img src="/static/assets/images/T1.jpg" alt="">
+              <div class="down-content">
+                <h4>Баданина Мария Анатольевна</h4>
+                <span>Генеральный директор</span>
+                <p>+7-111-111-11-11<br>
+                seo@bg2b.ru</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-item">
+              <img src="/static/assets/images/T2.jpg" alt="">
+              <div class="down-content">
+                <h4>Анна</h4>
+                <span>Глава департамента кредитования</span>
+                <p>+7-111-111-11-11<br>
+                credit@bg2b.ru</p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-item">
+              <img src="/static/assets/images/T4.jpg" alt="">
+              <div class="down-content">
+                <h4>Елизавета</h4>
+                <span>Глава департамента банковских гарантий</span>
+                <p>+7-111-111-11-11<br>
+                bg@bg2b.ru</p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fun-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-content">
+              <span>Эффективность нашей работы</span>
+              <h2>Многолетняя успешная работа<br> <em>Подтверждается цифрами</em></h2>
+              <p> 95% обратившихся к нам клиентов - становятся нашими постоянными клиентами.
+                 Наши сильные стороны доступны для вас:<br />
+                - Экономия времени - наши бизнес процессы и взаимодействие с банками отлажены и работают как часы.<br />
+                - Без посредников - мы напрямую работаем с банками, что позволяет
+                нам в кратчайшие сроки получать положительные решения.<br />
+                - Сильная аналитическая база - алгоритмы всестороннего анализа
+                финансовой устойчивости клиента позволяют нам находить сильные стороны и нивелировать слабые.<br />
+              </p>
+              <a href="" class="filled-button">Читать</a>
+            </div>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">12</div>
+                  <div class="count-title">Лет опыта</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">2500</div>
+                  <div class="count-title">Гарантий выдано</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">500</div>
+                  <div class="count-title">Кредитов выдано</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="count-area-content">
+                  <div class="count-digit">1500</div>
+                  <div class="count-title">единиц техники в лизинг</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Что наши клиенты <em>говорят о нас</em></h2>
+              <span>время работы более 5 лет</span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-testimonials owl-carousel">
+
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>Виктор Драгунский</h4>
+                  <span>Директор ООО "АкваЛабеан"</span>
+                  <p>Утром я ничего не мог есть. Только выпил две чашки чаю с хлебом и маслом, с картошкой и сосиской.</p>
+                </div>
+                <img src="/static/assets/images/B2.jpg" alt="">
+              </div>
+
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>Леонид Голубков</h4>
+                  <span>Главный бухгалтер ООО "Лабеан"</span>
+                  <p>Куплю жене сапоги!</p>
+                </div>
+                <img src="/static/assets/images/B1.jpg" alt="">
+              </div>
+
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>Некто Юлия</h4>
+                  <span>Директор ООО "Смелый кулинар"</span>
+                  <p>"Я знаю рецепт очень вкусных сырников"</p>
+                </div>
+                <img src="/static/assets/images/B3.jpg" alt="">
+              </div>
+
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>Дэвид Гетта</h4>
+                  <span>Диджей ООО "Ну очень плохая музыка"</span>
+                  <p>Ну очень хорошая музыка!</p>
+                </div>
+                <img src="/static/assets/images/B4.jpg" alt="">
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>Финансовая группа Сварог</h4>
+            <p>info@bg2b.ru<br>
+            +7-111-111-11-11<br>Понедельник - Пятница 09:00-20:00
+            </p>
+            <ul class="social-icons">
+              <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Полезные ссылки</h4>
+            <ul class="menu-list">
+              <li><a href="https://www.consultant.ru/document/cons_doc_LAW_144624/">44-ФЗ</a></li>
+              <li><a href="https://www.consultant.ru/document/cons_doc_LAW_116964/">223-ФЗ</a></li>
+              <li><a href="https://www.consultant.ru/document/cons_doc_LAW_200640/">615-ПП</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Добавочные страницы</h4>
+            <ul class="menu-list">
+              <li><a href="{% url 'home' %}">Главная</a></li>
+              <li><a href="{% url 'about' %}">О нас</a></li>
+              <li><a href="{% url 'contact' %}">Контакты</a></li>
+              <li><a href="{% url 'services' %}">Услуги</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item last-item">
+            <h4>Свяжитесь с нами</h4>
+            <div class="contact-form">
+              <form id="contact footer-contact" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Имя" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Сообщение" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="filled-button">Отправить</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Все права принадлежат Финансовой Группе СВАРОГ &copy; 2024
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="/static/assets/js/custom.js"></script>
+    <script src="/static/assets/js/owl.js"></script>
+    <script src="/static/assets/js/slick.js"></script>
+    <script src="/static/assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
